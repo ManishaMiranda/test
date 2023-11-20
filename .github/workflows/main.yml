@@ -1,6 +1,6 @@
 #This workflow is used to create a new EC2 instance in the AWS 'us-east-1' region
 #
-name: Create new EC2 instance
+name: Create_new_EC2_instance
 
 on:
   workflow_dispatch:
