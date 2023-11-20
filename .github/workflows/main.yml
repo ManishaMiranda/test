@@ -4,7 +4,7 @@ name: Create_new_EC2_instance
 
 on:
   workflow_dispatch:
-    # types: [create-ec2]
+    types: [create-ec2]
     inputs:
       ec2_name:
         description: 'Enter name of the EC2'
