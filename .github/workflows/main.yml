@@ -3,7 +3,7 @@
 name: Create_new_EC2_instance
 
 on:
-  workflow_dispatch:
+  repository_dispatch:
     types: [create-ec2]
     inputs:
       ec2_name:
